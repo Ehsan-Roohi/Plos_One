@@ -1,0 +1,5 @@
+specification,predictors,n_donors_used,top_donor,top_weight,pre_rmspe,post_rmspe,post_pre_rmspe_ratio
+baseline,"gdp_pc_const, tertiary_enroll, gov_expend, trade_open",4,China,0.7868346148875618,66.86113107194423,243889.53252257634,3647.7027626132317
+no_trade,"gdp_pc_const, tertiary_enroll, gov_expend",3,China,0.7760626041242839,61.94952742054158,240238.500869602,3877.9714853796017
+no_govexp,"gdp_pc_const, tertiary_enroll, trade_open",5,Malaysia,0.4287913793004862,50.38394423802005,82244.36004844593,1632.3525538197903
+econ_only,"gdp_pc_const, gov_expend, trade_open",4,China,0.5547970992275,58.38612054940312,165767.3215535554,2839.156292518052
